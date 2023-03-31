@@ -5,6 +5,15 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Web Test 1</title>
+
+    <style>
+        .comment {
+          resize: none;
+          height: 100px;
+          width: 350px;
+        }
+      </style>
+
 </head>
 <body style="background-color:rgb(233, 233, 233); text-align: center;">
 
@@ -30,7 +39,7 @@
     <p style="text-align:center; font-family:sans-serif;opacity: 80%;font-size: 77%;" >Pebalap Repsol Honda, Marc Marquez - Reuters</p>
 
     
-    <div style="text-align:justify; font-family: verdana; font-size: 120%; margin-left: 580px; margin-right: 580px;color: rgb(0, 0, 0);">
+    <p style="text-align: justify; margin-left: 580px;margin-right: 580px; font-family: verdana; font-size: 120%;color: rgb(0, 0, 0);">
         Pseudo News, Yogyakarta - Tim Repsol Honda pada Rabu menyatakan keberatan atas 
         perubahan sanksi terhadap Marc Marquez menyusul kecelakaan sang pebalap Spanyol 
         dengan Miguel Oliveira pada Grand Prix pembuka musim di Portugal, pekan lalu.
@@ -112,7 +121,7 @@
              <br>
 
             <!-- Form Login -->
-    </div>
+    </p>
         
         <hr style="width: 40%; height: 2px; background-color:black">
         <hr style="width: 40%; height: 2px; background-color:black">
@@ -150,9 +159,9 @@
             <form style="text-align: left; margin-left: 580px;">    
                 <tr>
                     <td>
-                        <input type="text" id="comment-box" placeholder="Tuliskan komentar Anda :" Komentar="">
-                        <button id="post">Post</button>
-                        <ul id="unordered">
+                        <textarea class="comment" placeholder="Tuliskan Komendar Anda"></textarea>
+                        <br>
+                        <input type="submit">
                     </td>
                 </tr>
             </form>
